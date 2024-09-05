@@ -2,6 +2,8 @@
   {
     "id": 1,
     "name": "Perfume",
+    "categoria": "perfume",
+    "status" : "disponível",
     "desc": "Miguel Rousseouf",
     "value": "100.00",
     "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg"
@@ -9,6 +11,8 @@
   {
     "id": 2,
     "name": "Colar",
+    "categoria": "colar",
+    "status" : "disponível",
     "desc": "Jand Karno em perolas",
     "value": "2200.00",
     "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg"
@@ -16,6 +20,8 @@
   {
     "id": 3,
     "name": "Noites brancas",
+    "categoria": "livro",
+    "status" : "disponível",
     "desc": "livro",
     "value": "200.00",
     "image": "https://cdl-static.s3-sa-east-1.amazonaws.com/covers/gg/9788582850749/noites-brancas.jpg"
@@ -23,6 +29,8 @@
   {
     "id": 4,
     "name": "Os irmãos karamazóv",
+    "categoria": "livro",
+    "status" : "disponível",
     "desc": "livro",
     "value": "100.00",
     "image": "https://martinsfontespaulista.vteximg.com.br/arquivos/ids/1510848-800-800/1018131.jpg?v=638024132010770000"
@@ -30,6 +38,8 @@
   {
     "id": 5,
     "name": "Corte de espinhos e rosas",
+    "categoria": "livro",
+    "status" : "indisponivel",
     "desc": "livro",
     "value": "300.00",
     "image": "https://jamboeditora.com.br/wp-content/uploads/2021/04/jamboeditora-corte-de-nevoa.png"
