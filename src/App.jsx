@@ -36,7 +36,7 @@ function App() {
      {show === "prod" &&
         <>
           <h2>Showroom de produtos</h2>
-            <div>
+            <div className={style.flex}  >
             {produtos.map((item, index) => {
               return(
                   <div key={index} className={style.Card}>
