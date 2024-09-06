@@ -1,10 +1,10 @@
 
 body{
-  background-color: rgb(47, 47, 47);
-  font-family: "SUSE", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+  background-image: linear-gradient(
+    to top left,
+    rgb(47, 47, 47) 40%,
+    rgb(0, 0, 0)
+  );
 }
 .wrapBtns {
   width: 100%;
@@ -28,7 +28,11 @@ body{
   gap: 1vh;
   padding: 10px;
   margin-top: 60px;
-  background-color: rgb(47, 47, 47);
+  background-image: linear-gradient(
+    to top left,
+    rgb(47, 47, 47) 70%,
+    rgb(0, 0, 0)
+  );
 }
 
 .Card{

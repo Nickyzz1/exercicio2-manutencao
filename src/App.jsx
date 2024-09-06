@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Card } from './components/Card'
+import { Card2 } from './components/Card2'
 import produtos from './constants/produtos.json'
 import { api } from "./api/rmApi"
 import style from './App.module.css'
@@ -55,8 +56,8 @@ function App() {
             <div className={style.flex}>
             {data.map((item) => { 
              return(
-              <div key={item.id}>
-                <Card name={item.name} desc={item.species} value={item.gender} image={item.image} />
+              <div key={item.id} className={style.Card} >
+                <Card2 name={item.name} species={item.species} gender={item.gender} type={item.type} status={item.status} image={item.image}/>
                 {/* <button onClick={() => {}}>Info</button> */}
               </div>
               )
