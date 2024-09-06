@@ -37,10 +37,11 @@ function App() {
         <>
           <h2>Showroom de produtos</h2>
             <div>
-            {produtos.map((item) => {
+            {produtos.map((item, index) => {
               return(
-                <Card name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id}/>
-              )
+                  <div key={index} className={style.Card}>
+                  <Card status={item.status} name={item.name} desc={item.desc} value={item.value} image={item.image} key={item.id}/>
+                </div> )
              })}
             </div>
         </>

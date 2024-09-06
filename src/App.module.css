@@ -22,3 +22,34 @@
   margin-top: 60px;
   background-color: rgb(47, 47, 47);
 }
+
+
+.Card{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(87, 81, 81);
+  border-radius: 7px;
+  height: 300px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  border: solid 1px rgb(235, 235, 235);
+}
+
+.Card img{
+  height: 100px;
+  width: auto;
+  border-radius: 15px;
+}
+.Card:hover{
+  transform: scale(1.05);
+}
+
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
+  border-radius: 5px;
+}
