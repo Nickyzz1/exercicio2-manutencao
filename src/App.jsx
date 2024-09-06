@@ -19,7 +19,7 @@ function App() {
       setData(response.data.results)
     }).catch((error) => {
       if(error.response.status === 404){
-        console.log("Esta pagina nao contem este personagem")
+        alert("Esta pagina nao contem este personagem")
       }
       console.error(error)
     })
