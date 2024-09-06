@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: center;
   gap: 1vw;
+  top: 0;
+  position: fixed;
+  background-color: black;
 }
 
 .wrapPage {
@@ -16,5 +19,6 @@
   justify-content: center;
   gap: 1vh;
   padding: 10px;
+  margin-top: 60px;
   background-color: rgb(47, 47, 47);
 }
