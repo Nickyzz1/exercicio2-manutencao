@@ -4,7 +4,7 @@ import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility
 import "leaflet-defaulticon-compatibility";
 import App from './App';
 
-const Api = () => {
+const Map = () => {
 
     return (
     <>
@@ -12,8 +12,8 @@ const Api = () => {
         <>
       <h2>Mapa</h2>
           <div>
-          <MapContainer center={[-25.4249647,-49.272303]} zoom={13} scrollWheelZoom={true} style={{width:"100%", height: '400px'}}>
-          <TileLayer
+          <MapContainer  center={[-25.4249647,-49.272303]} zoom={13} scrollWheelZoom={true} style={{width:"100%", height: '400px'}}>
+          <TileLayer 
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
@@ -27,6 +27,6 @@ const Api = () => {
          </>
 </>)}
 
-export default Api;
+export default Map;
 
 

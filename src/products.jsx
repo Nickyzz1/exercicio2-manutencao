@@ -9,7 +9,6 @@ const Products = () => {
     <>
   <App/>
     <div  className={style.wrapPage}>
-      <h1>Exercícios de manutenção</h1>
         <>
           <h2>Showroom de produtos</h2>
             <div className={style.flex}  >
