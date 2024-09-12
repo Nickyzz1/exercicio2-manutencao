@@ -87,3 +87,38 @@ body{
 }
 
 
+.Card3{
+  font-size: 10px;
+  background-color: rgb(87, 81, 81);
+  border-radius: 7px;
+  height: 300px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  border: solid 1px rgb(235, 235, 235);
+  z-index: 100;
+}
+.Card button{
+  border-radius: 10px;
+  border: none;
+  background-color: aliceblue;
+}
+
+.Card button:hover{
+  border-radius: 10px;
+  border: none;
+  color: rgb(64, 72, 80);
+}
+
+
+.Card3 img{
+  height: 100px;
+  width: auto;
+  border-radius: 15px;
+}
+.Card3:hover{
+  transform: scale(1.05);
+}
+
+
