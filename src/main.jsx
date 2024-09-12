@@ -6,7 +6,10 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import App from './App'
+import Products from './products'
 import Graph from './graph'
+import Api from './Api'
+import Map from './Map'
 // qundo vc tem função é sem {}
 
 const router = createBrowserRouter([
@@ -15,14 +18,30 @@ const router = createBrowserRouter([
     element: <App/>
   },
   {
-    path: '/graph',
+    path: '/Graph',
     element: <Graph/>
+  },
+  {
+    path: '/Products',
+    element: <Products/>
+  },
+  {
+    path: '/Api',
+    element: <Api/>
+  },
+  {
+    path: '/Map',
+    element: <Map/>
   }
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
+
+
+
+
 
