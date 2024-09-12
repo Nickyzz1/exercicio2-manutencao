@@ -1,6 +1,6 @@
 import { Card } from './components/Card'
 import produtos from './constants/produtos.json'
-import style from './App.module.css'
+import style from './Products.module.css'
 import App from './App'
 
 const Products = () => {

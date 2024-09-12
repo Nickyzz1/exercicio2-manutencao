@@ -3,6 +3,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import "leaflet-defaulticon-compatibility";
 import App from './App';
+import style from './Map.module.css'
 
 const Map = () => {
 
@@ -10,8 +11,8 @@ const Map = () => {
     <>
     <App/>
         <>
-      <h2>Mapa</h2>
-          <div>
+          <div className={style.content}>
+          <h2>Mapa</h2>
           <MapContainer  center={[-25.4249647,-49.272303]} zoom={13} scrollWheelZoom={true} style={{width:"100%", height: '400px'}}>
           <TileLayer 
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

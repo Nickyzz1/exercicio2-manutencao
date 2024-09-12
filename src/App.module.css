@@ -1,14 +1,15 @@
 
 body{
   background-image: linear-gradient(
-    to top left,
-    rgb(44, 31, 66) 40%,
+    to top,
+    rgb(44, 31, 66) 80%,
     rgb(0, 0, 0)
   );
+  height: 600vh;
 }
 .wrapBtns {
   width: 100%;
-  max-height: 70px;
+  height: auto;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -18,18 +19,24 @@ body{
   position: fixed;
   background-color: black;
   text-align: center;
+  z-index: 10;
+  flex-wrap: wrap;
 }
 .wrapBtns button {
  border-radius: 10px;
  height: 50px;
  background-color: white;
  border: none;
+ font-size: 20px;
  text-align: center;
+ color:black
 }
 
 .wrapBtns button:hover {
   color: white;
   background-color: rgb(41, 7, 56);
+  border: solid 0.2px white;
+  flex-wrap: wrap;
  }
 
 .wrapPage {
@@ -42,25 +49,26 @@ body{
   align-items: left;
   justify-content: center;
   gap: 1vh;
-  padding: 10px;
+  padding: 50px;
   margin-top: 60px;
-  background-image: linear-gradient(
-    to top left,
-    rgb(44, 31, 66) 40%,
-    rgb(0, 0, 0)
-  );
+  padding: 10px;
 }
 
 .Card{
-  font-size: 10px;
-  background-color: rgb(87, 81, 81);
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.312);
   border-radius: 7px;
   height: 300px;
   width: 200px;
   color: white;
   text-align: center;
   margin: 20px;
-  border: solid 1px rgb(235, 235, 235);
+  border: solid 1px rgb(102, 9, 241);
+  padding: 15px;
+  transition: 0.7ms;
+}
+.Card button{
+  color: black;
 }
 
 .Card img{
@@ -69,7 +77,7 @@ body{
   border-radius: 15px;
 }
 .Card:hover{
-  transform: scale(1.05);
+  transform: scale(0.95);
 }
 
 .red{
@@ -94,6 +102,9 @@ body{
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+
 }
 
 .center{
@@ -113,12 +124,13 @@ body{
   text-align: center;
   margin: 20px;
   border: solid 1px rgb(235, 235, 235);
-  z-index: 100;
+  z-index: 20;
 }
 .Card button{
   border-radius: 10px;
   border: none;
   background-color: aliceblue;
+  z-index: 2;
 }
 
 .Card button:hover{
@@ -137,4 +149,21 @@ body{
   transform: scale(1.05);
 }
 
+input{
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  width: 400px;
+  border: solid 0.5px white;
+}
+
+
+@media (max-width:500px) {
+
+  
+input{
+  width: 200px;
+}
+
+}
 

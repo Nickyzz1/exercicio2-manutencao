@@ -1,0 +1,26 @@
+.graph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin: 5%;
+    background-color: rgba(0, 0, 0, 0.258);
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+@media(max-width: 620px)
+{
+    .graph{
+        width: 300px;
+    }
+}

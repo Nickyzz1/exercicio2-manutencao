@@ -1,4 +1,4 @@
-import style from './App.module.css'
+import style from './Api.module.css'
 import { Card2 } from './components/Card2'
 import { useEffect, useState } from 'react'
 import { api } from "./api/rmApi"
@@ -36,7 +36,7 @@ const Api = () =>{
         <>
           <h2>Rick and Morty API</h2>
             <div>
-               <input type="number" placeholder="1/43" value={page} onChange={(event) => setPage(event.target.value)}/>
+               <input type="number" placeholder="1/42" value={page} onChange={(event) => setPage(event.target.value)}/>
             </div>
             <div>
                <input type="text" placeholder="Digite um nome" value={name} onChange={(event) => setName(event.target.value)}/>
